@@ -1,5 +1,50 @@
 .App {
   text-align: center;
+  background-image: url("https://play-lh.googleusercontent.com/aVME3KHn9RdE_JNTg3QrUgxSPEuC6x5bXxok3PnbYGVSlA_Dp0lTmAES0YF9GEQw1Gw");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+
+}
+
+.weather-box {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 00;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  width: 100%;
+  margin: 0 0 75px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  
+  color: #313131;
+  font-size: 20px;
+ transition: 0.4s ease;
+
 }
 
 .App-logo {
